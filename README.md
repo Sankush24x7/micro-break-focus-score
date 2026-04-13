@@ -73,6 +73,20 @@ When break is due, user sees actionable reminder with:
 2. Run executable
 3. Use tray icon to open dashboard
 
+## Dist Folder (Ready-to-Run Build)
+
+The repo includes a prebuilt executable in:
+
+- `dist/MicroBreakReminder.exe`
+
+Use this when you do not want to build from source.
+
+How to run:
+1. Open `dist` folder
+2. Double-click `MicroBreakReminder.exe`
+3. App starts in system tray
+4. Right-click tray icon and open `View Dashboard`
+
 ### Option 2: Build from source
 ```powershell
 git clone https://github.com/Sankush24x7/micro-break-focus-score.git
@@ -116,4 +130,3 @@ Output:
 - `MicroBreakReminder/Services` tracking, scoring, reminders
 - `MicroBreakReminder/UI` dashboard and charts
 - `MicroBreakReminder/Persistence` stats/settings storage
-
